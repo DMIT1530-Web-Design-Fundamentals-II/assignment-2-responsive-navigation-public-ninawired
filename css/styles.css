@@ -14,7 +14,7 @@
 @font-face {
     font-family: 'CooperHewitt-Heavy';
     src: url('../assignment-two-responsive-nav-assets/CooperHewitt-Heavy.ttf') format('truetype');
-    font-weight: heavy;
+    font-weight: 900;
     font-style: normal;
 }
 
@@ -284,7 +284,9 @@ header a {
 }
 
 .video-blog .col .btn:hover {
-    border: 1px solid var(--lt-grey);
+    background-color: var(--orange);
+    border: 1px solid var(--orange);
+    color: var(--lt-grey)
 }
 
 /* Footer Section */
@@ -326,6 +328,10 @@ header a {
     max-width: 1.5rem;
     fill: var(--lt-grey);
     width: 100%;
+}
+
+.social-icon:hover {
+    fill: #000;
 }
 
 /* Mobile View */
